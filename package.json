@@ -1,10 +1,11 @@
 {
     "name": "Sanrio Weapon Pack",
+    "isBundleMod": true,
     "version": "0.0.1",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "apiedev",
-    "akiVersion": "~3.7",
+    "akiVersion": "3.8.X",
 	"loadBefore": [],
 	"loadAfter": [],
 	"incompatibilities": [],

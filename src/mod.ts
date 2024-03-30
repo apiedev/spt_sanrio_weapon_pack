@@ -17,6 +17,18 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
 
     public postDBLoad(container: DependencyContainer): void 
     {
+        this.AddItems(container);
+    }
+
+    public postAkiLoad(container: DependencyContainer): void {
+        const db = container.resolve<DatabaseServer>("DatabaseServer");
+        const item = db.getTables().templates.items;
+
+        item["57c69dd424597774c03b7bbc"]._props.Slots[0]._props.filters[0].Filter.push("CinnamorollVudu");
+        item["5c0faeddd174af02a962601f"]._props.Slots[0]._props.filters[0].Filter.push("CinnamorollVltor");
+    }
+
+    public AddItems(container: DependencyContainer) {
         const CustomItem = container.resolve<CustomItemService>("CustomItemService");
 
         const cinnamorollVudu: NewItemFromCloneDetails = {
@@ -34,7 +46,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "CinnamorollVudu",
             fleaPriceRoubles: 50000, //Self explanatary
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f748386f774093e6cb501",
             locales: {
                 "en": {
                     name: "EOTech Vudu 1-6x24 30mm riflescope (Cinnamoroll)",
@@ -61,7 +73,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "CinnamorollVltor",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f757486f774093e6cb507",
             locales: {
                 "en": {
                     name: "Vltor EMOD stock (Cinnamoroll)",
@@ -88,7 +100,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "CinnamorollSpacer",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f755f86f77447ec5d770e",
             locales: {
                 "en": {
                     name: "Aimpoint Standard Spacer (Cinnamoroll)",
@@ -115,7 +127,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "CinnamorollInsight",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f737886f774093e6cb4fb",
             locales: {
                 "en": {
                     name: "Insight WMX200 tactical flashlight (Cinnamoroll)",
@@ -142,7 +154,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "CinnamorollAimpoint",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f748386f774093e6cb501",
             locales: {
                 "en": {
                     name: "Aimpoint Micro T-1 reflex sight (Cinnamoroll)",
@@ -169,7 +181,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "CinnamorollNoveske",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f764186f77447ec5d7714",
             locales: {
                 "en": {
                     name: "AR-15 Noveske Gen.3 5.56x45 upper receiver (Cinnamoroll)",
@@ -196,7 +208,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "CinnamorollST2",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f761f86f774094242f1a1",
             locales: {
                 "en": {
                     name: "AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip (Cinnamoroll)",
@@ -223,7 +235,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "cinnamorollGenM3",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f754a86f774094242f19b",
             locales: {
                 "en": {
                     name: "5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (Cinnamoroll)",
@@ -250,7 +262,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "cinnamorollURX38",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f75e486f77447ec5d7712",
             locales: {
                 "en": {
                     name: "AR-15 KAC URX 3 8 inch handguard (Cinnamoroll)",
@@ -277,7 +289,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "cinnamorollURX1075",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f75e486f77447ec5d7712",
             locales: {
                 "en": {
                     name: "AR-15 KAC URX 3.1 10.75 inch handguard (Cinnamoroll)",
@@ -304,7 +316,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "cinnamorollAvalanche",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f751486f77447ec5d770c",
             locales: {
                 "en": {
                     name: "AR-15 Rainier Arms Avalanche MOD2 charging handle (Cinnamoroll)",
@@ -331,7 +343,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "cinnamorollForegripBcm",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f71de86f774093f2ecf13",
             locales: {
                 "en": {
                     name: "BCM GUNFIGHTER MOD 3 vertical foregrip (Cinnamoroll)",
@@ -358,7 +370,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "cinnamorollMk12Low",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f760586f774093e6cb509",
             locales: {
                 "en": {
                     name: "AR-15 Daniel Defense MK12 Low Profile Gas Block (Cinnamoroll)",
@@ -385,7 +397,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             newId: "cinnamorollKacPanelShort",
             fleaPriceRoubles: 50000,
             handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookParentId: "5b5f74cc86f77447ec5d770a",
             locales: {
                 "en": {
                     name: "KAC URX 3/3.1 short panel (Cinnamoroll)",
@@ -411,8 +423,8 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             parentId: "55818a104bdc2db9688b4569",
             newId: "cinnamorollURX38Lower",
             fleaPriceRoubles: 50000,
-            handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookPriceRoubles: 5010,
+            handbookParentId: "5b5f75e486f77447ec5d7712",
             locales: {
                 "en": {
                     name: "AR-15 KAC URX 3 8 inch lower handguard (Cinnamoroll)",
@@ -438,8 +450,8 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             parentId: "55818a104bdc2db9688b4569",
             newId: "cinnamorollURX1075Lower",
             fleaPriceRoubles: 50000,
-            handbookPriceRoubles: 42500,
-            handbookParentId: "5d1c819a86f774771b0acd6c",
+            handbookPriceRoubles: 5640,
+            handbookParentId: "5b5f75e486f77447ec5d7712",
             locales: {
                 "en": {
                     name: "AR-15 KAC URX 3.1 10.75 inch lower handguard (Cinnamoroll)",
@@ -450,14 +462,6 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
         }
         CustomItem.createItemFromClone(cinnamorollURX1075Lower);
         this.logger.log("cinnamorollURX1075Lower added to the database.", "bold cyan");
-    }
-
-    public postAkiLoad(container: DependencyContainer): void {
-        const db = container.resolve<DatabaseServer>("DatabaseServer");
-        const item = db.getTables().templates.items;
-
-        item["57c69dd424597774c03b7bbc"]._props.Slots[0]._props.filters[0].Filter.push("CinnamorollVudu");
-        item["5c0faeddd174af02a962601f"]._props.Slots[0]._props.filters[0].Filter.push("CinnamorollVltor");
     }
 }
 
