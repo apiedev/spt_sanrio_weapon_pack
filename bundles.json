@@ -1,27 +1,27 @@
 {
   "manifest": [
       {
-         "key":"mods/tactical/tactical_urx_kac_panel_short_cinnamoroll.bundle",
+         "key":"cinnamoroll/tactical_urx_kac_panel_short_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
-            "mods/tactical/tactical_urx_kac_panel_short_gloss_nrm_cinnamoroll.bundle",
-            "mods/tactical/tactical_urx_kac_panel_short_textures_cinnamoroll.bundle",
+            "cinnamoroll/tactical_urx_kac_panel_short_gloss_nrm_cinnamoroll.bundle",
+            "cinnamoroll/tactical_urx_kac_panel_short_textures_cinnamoroll.bundle",
             "cubemaps",
             "shaders"
          ]
       },
       {
-         "key":"mods/tactical/tactical_urx_kac_panel_short_gloss_nrm_cinnamoroll.bundle",
+         "key":"cinnamoroll/tactical_urx_kac_panel_short_gloss_nrm_cinnamoroll.bundle",
          "dependencyKeys":[
          ]
       },
       {
-         "key":"mods/tactical/tactical_urx_kac_panel_short_textures_cinnamoroll.bundle",
+         "key":"cinnamoroll/tactical_urx_kac_panel_short_textures_cinnamoroll.bundle",
          "dependencyKeys":[
          ]
       },
       {
-         "key":"mods/scopes/scope_30mm_eotech_vudu_1_6x24_cinnamoroll.bundle",
+         "key":"cinnamoroll/scope_30mm_eotech_vudu_1_6x24_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
             "assets/content/textures/holemanager/round_spec_mask.bundle",
@@ -32,29 +32,21 @@
          ]
       },
       {
-         "key":"mods/mounts/mount_base_aimpoint_h1_t1_spacer_cinnamoroll.bundle",
+         "key":"cinnamoroll/mount_base_aimpoint_h1_t1_spacer_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
-            "mods/mounts/mount_all_aimpoint_h1_t1_weaver_textures_cinnamoroll.bundle",
+            "cinnamoroll/mount_all_aimpoint_h1_t1_weaver_textures_cinnamoroll.bundle",
             "cubemaps",
             "shaders"
          ]
       },
       {
-         "key":"mods/mounts/mount_all_aimpoint_h1_t1_weaver_textures_cinnamoroll.bundle",
+         "key":"cinnamoroll/mount_all_aimpoint_h1_t1_weaver_textures_cinnamoroll.bundle",
          "dependencyKeys":[
          ]
       },
       {
-         "key":"mods/charges/charge_ar15_rainer_arms_avalanche_mod2_cinnamoroll.bundle",
-         "dependencyKeys":[
-            "assets/commonassets/physics/physicsmaterials.bundle",
-            "cubemaps",
-            "shaders"
-         ]
-      },
-      {
-         "key":"mods/gasblock/gas_block_ar15_dd_mk12_low_profile_cinnamoroll.bundle",
+         "key":"cinnamoroll/charge_ar15_rainer_arms_avalanche_mod2_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
             "cubemaps",
@@ -62,7 +54,15 @@
          ]
       },
       {
-         "key":"mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_cinnamoroll.bundle",
+         "key":"cinnamoroll/gas_block_ar15_dd_mk12_low_profile_cinnamoroll.bundle",
+         "dependencyKeys":[
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "cubemaps",
+            "shaders"
+         ]
+      },
+      {
+         "key":"cinnamoroll/mag_stanag_magpul_pmag_gen_m3_556x45_30_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
             "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_gloss_nrm",
@@ -72,7 +72,7 @@
          ]
       },
       {
-         "key":"mods/stocks/stock_ar15_vltor_emod_cinnamoroll.bundle",
+         "key":"cinnamoroll/stock_ar15_vltor_emod_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
             "cubemaps",
@@ -80,7 +80,7 @@
          ]
       },
       {
-         "key":"mods/scopes/scope_base_aimpoint_micro_t1_cinnamoroll.bundle",
+         "key":"cinnamoroll/scope_base_aimpoint_micro_t1_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
             "assets/content/textures/holemanager/round_spec_mask.bundle",
@@ -90,7 +90,7 @@
          ]
       },
       {
-         "key":"mods/pistol grips/pistolgrip_ar15_f1_firearms_st2_pc_skeletonized_cinnamoroll.bundle",
+         "key":"cinnamoroll/pistolgrip_ar15_f1_firearms_st2_pc_skeletonized_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
             "cubemaps",
@@ -98,7 +98,7 @@
          ]
       },
       {
-         "key":"mods/foregrips/foregrip_all_bcm_mod_3_cinnamoroll.bundle",
+         "key":"cinnamoroll/foregrip_all_bcm_mod_3_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
             "cubemaps",
@@ -106,20 +106,20 @@
          ]
       },
       {
-         "key":"m4a1_cinnamoroll/textures/client_assets.bundle",
+         "key":"cinnamoroll/m4a1_cinnamoroll/textures/client_assets.bundle",
          "dependencyKeys":[
          ]
       },
       {
-         "key":"m4a1_cinnamoroll/client_assets.bundle",
+         "key":"cinnamoroll/m4a1_cinnamoroll/client_assets.bundle",
          "dependencyKeys":[
-            "m4a1_cinnamoroll/textures/client_assets.bundle",
+            "cinnamoroll/m4a1_cinnamoroll/textures/client_assets.bundle",
             "cubemaps",
             "shaders"
          ]
       },
       {
-         "key":"m4a1_cinnamoroll/weapon_colt_m4a1_556x45_cinnamoroll_container.bundle",
+         "key":"cinnamoroll/m4a1_cinnamoroll/weapon_colt_m4a1_556x45_cinnamoroll_container.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
             "assets/content/audio/banks/m4a1.bundle",
@@ -130,8 +130,8 @@
             "assets/content/weapons/additional_hands/client_assets.bundle",
             "assets/content/weapons/animations/simple_animations.bundle",
             "assets/content/weapons/animations/spirit_animations.bundle",
-            "m4a1_cinnamoroll/client_assets.bundle",
-            "m4a1_cinnamoroll/client_assets.bundle",
+            "cinnamoroll/m4a1_cinnamoroll/client_assets.bundle",
+            "cinnamoroll/m4a1_cinnamoroll/client_assets.bundle",
             "assets/content/weapons/tx15/client_assets.bundle",
             "assets/content/weapons/tx15/textures/client_assets.bundle",
             "assets/content/weapons/tx15/weapon_lone_star_tx15_designated_marksman_556x45_container.bundle",
@@ -145,7 +145,7 @@
          ]
       },
       {
-         "key":"mods/recievers/reciever_ar15_noveske_gen3_cinnamoroll.bundle",
+         "key":"cinnamoroll/reciever_ar15_noveske_gen3_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
             "cubemaps",
@@ -153,48 +153,48 @@
          ]
       },
       {
-         "key":"mods/handguards/handguard_ar15_kac_urx_3_8_inch_cinnamoroll.bundle",
+         "key":"cinnamoroll/handguard_ar15_kac_urx_3_8_inch_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
-            "mods/handguards/handguard_ar15_kac_urx_3_textures_cinnamoroll.bundle",
+            "cinnamoroll/handguard_ar15_kac_urx_3_textures_cinnamoroll.bundle",
             "cubemaps",
             "shaders"
          ]
       },
       {
-         "key":"mods/handguards/handguard_ar15_kac_urx_3_8_inch_lower_cinnamoroll.bundle",
+         "key":"cinnamoroll/handguard_ar15_kac_urx_3_8_inch_lower_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
-            "mods/handguards/handguard_ar15_kac_urx_3_textures_cinnamoroll.bundle",
+            "cinnamoroll/handguard_ar15_kac_urx_3_textures_cinnamoroll.bundle",
             "cubemaps",
             "shaders"
          ]
       },
       {
-         "key":"mods/handguards/handguard_ar15_kac_urx_31_10,75_inch_cinnamoroll.bundle",
+         "key":"cinnamoroll/handguard_ar15_kac_urx_31_10,75_inch_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
-            "mods/handguards/handguard_ar15_kac_urx_3_textures_cinnamoroll.bundle",
+            "cinnamoroll/handguard_ar15_kac_urx_3_textures_cinnamoroll.bundle",
             "cubemaps",
             "shaders"
          ]
       },
       {
-         "key":"mods/handguards/handguard_ar15_kac_urx_31_10,75_inch_lower_cinnamoroll.bundle",
+         "key":"cinnamoroll/handguard_ar15_kac_urx_31_10,75_inch_lower_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
-            "mods/handguards/handguard_ar15_kac_urx_3_textures_cinnamoroll.bundle",
+            "cinnamoroll/handguard_ar15_kac_urx_3_textures_cinnamoroll.bundle",
             "cubemaps",
             "shaders"
          ]
       },
       {
-         "key":"mods/handguards/handguard_ar15_kac_urx_3_textures_cinnamoroll.bundle",
+         "key":"cinnamoroll/handguard_ar15_kac_urx_3_textures_cinnamoroll.bundle",
          "dependencyKeys":[
          ]
       },
       {
-         "key":"mods/tactical/tactical_all_insight_anpeq15_cinnamoroll.bundle",
+         "key":"cinnamoroll/tactical_all_insight_anpeq15_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
             "assets/content/textures/holemanager/glow_particle_bright.bundle",

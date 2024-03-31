@@ -36,7 +36,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_scope_30mm_eotech_vudu_1_6x24',
                 Prefab: {
-                    "path": "mods/scopes/scope_30mm_eotech_vudu_1_6x24_cinnamoroll.bundle",
+                    "path": "cinnamoroll/scope_30mm_eotech_vudu_1_6x24_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_scope_30mm_eotech_vudu_1_6x24",
@@ -63,7 +63,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_stock_ar15_vltor_emod',
                 Prefab: {
-                    "path": "mods/stocks/stock_ar15_vltor_emod_cinnamoroll.bundle",
+                    "path": "cinnamoroll/stock_ar15_vltor_emod_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_stock_ar15_vltor_emod",
@@ -90,7 +90,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_mount_base_aimpoint_h1_t1_spacer',
                 Prefab: {
-                    "path": "mods/mounts/mount_base_aimpoint_h1_t1_spacer_cinnamoroll.bundle",
+                    "path": "cinnamoroll/mount_base_aimpoint_h1_t1_spacer_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_mount_base_aimpoint_h1_t1_spacer",
@@ -117,7 +117,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_tactical_all_insight_wmx200',
                 Prefab: {
-                    "path": "mods/tactical/tactical_all_insight_anpeq15_cinnamoroll.bundle",
+                    "path": "cinnamoroll/tactical_all_insight_anpeq15_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_tactical_all_insight_wmx200",
@@ -144,7 +144,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_scope_base_aimpoint_micro_t1',
                 Prefab: {
-                    "path": "mods/scopes/scope_base_aimpoint_micro_t1_cinnamoroll.bundle",
+                    "path": "cinnamoroll/scope_base_aimpoint_micro_t1_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_scope_base_aimpoint_micro_t1",
@@ -171,7 +171,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_reciever_ar15_noveske_gen3_stripped',
                 Prefab: {
-                    "path": "mods/recievers/reciever_ar15_noveske_gen3_cinnamoroll.bundle",
+                    "path": "cinnamoroll/reciever_ar15_noveske_gen3_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_reciever_ar15_noveske_gen3_stripped",
@@ -198,7 +198,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_pistolgrip_ar15_f1_firearms_st2_pc_skeletonized',
                 Prefab: {
-                    "path": "mods/pistol grips/pistolgrip_ar15_f1_firearms_st2_pc_skeletonized_cinnamoroll.bundle",
+                    "path": "cinnamoroll/pistolgrip_ar15_f1_firearms_st2_pc_skeletonized_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_pistolgrip_ar15_f1_firearms_st2_pc_skeletonized",
@@ -225,7 +225,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_mag_stanag_magpul_pmag_gen_m3_window_556x45_30',
                 Prefab: {
-                    "path": "mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_cinnamoroll.bundle",
+                    "path": "cinnamoroll/mag_stanag_magpul_pmag_gen_m3_556x45_30_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_mag_stanag_magpul_pmag_gen_m3_window_556x45_30",
@@ -252,7 +252,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_handguard_ar15_kac_urx_3_8_inch',
                 Prefab: {
-                    "path": "mods/handguards/handguard_ar15_kac_urx_3_8_inch_cinnamoroll.bundle",
+                    "path": "cinnamoroll/handguard_ar15_kac_urx_3_8_inch_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_handguard_ar15_kac_urx_3_8_inch",
@@ -279,7 +279,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_handguard_ar15_kac_urx_31_10,75_inch',
                 Prefab: {
-                    "path": "mods/handguards/handguard_ar15_kac_urx_31_10,75_inch_cinnamoroll.bundle",
+                    "path": "cinnamoroll/handguard_ar15_kac_urx_31_10,75_inch_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_handguard_ar15_kac_urx_31_10,75_inch",
@@ -306,7 +306,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_charge_ar15_rainer_arms_avalanche_mod2',
                 Prefab: {
-                    "path": "mods/charges/charge_ar15_rainer_arms_avalanche_mod2_cinnamoroll.bundle",
+                    "path": "cinnamoroll/charge_ar15_rainer_arms_avalanche_mod2_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_charge_ar15_rainer_arms_avalanche_mod2",
@@ -333,7 +333,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_foregrip_all_bcm_mod_3',
                 Prefab: {
-                    "path": "mods/foregrips/foregrip_all_bcm_mod_3_cinnamoroll.bundle",
+                    "path": "cinnamoroll/foregrip_all_bcm_mod_3_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_foregrip_all_bcm_mod_3",
@@ -360,7 +360,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_gas_block_ar15_dd_mk12_low_profile',
                 Prefab: {
-                    "path": "mods/gasblock/gas_block_ar15_dd_mk12_low_profile_cinnamoroll.bundle",
+                    "path": "cinnamoroll/gas_block_ar15_dd_mk12_low_profile_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_gas_block_ar15_dd_mk12_low_profile",
@@ -387,7 +387,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_tactical_urx_kac_panel_short',
                 Prefab: {
-                    "path": "mods/tactical/tactical_urx_kac_panel_short_cinnamoroll.bundle",
+                    "path": "cinnamoroll/tactical_urx_kac_panel_short_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_tactical_urx_kac_panel_short",
@@ -414,7 +414,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_handguard_ar15_kac_urx_3_8_inch_lower',
                 Prefab: {
-                    "path": "mods/handguards/handguard_ar15_kac_urx_3_8_inch_lower_cinnamoroll.bundle",
+                    "path": "cinnamoroll/handguard_ar15_kac_urx_3_8_inch_lower_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_handguard_ar15_kac_urx_3_8_inch_lower",
@@ -441,7 +441,7 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod, IPreAkiLoadMod
             overrideProperties: {
                 Description: 'cinnamoroll_handguard_ar15_kac_urx_31_10,75_inch_lower',
                 Prefab: {
-                    "path": "mods/handguards/handguard_ar15_kac_urx_31_10,75_inch_lower_cinnamoroll.bundle",
+                    "path": "cinnamoroll/handguard_ar15_kac_urx_31_10,75_inch_lower_cinnamoroll.bundle",
                     "rcid": ""
                 },
                 Name: "cinnamoroll_handguard_ar15_kac_urx_31_10,75_inch_lower",
