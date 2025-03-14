@@ -1,6 +1,24 @@
 {
   "manifest": [
       {
+         "key":"cinnamoroll/scope_30mm_razor_hd_gen_2_1_6x24_cinnamoroll.bundle",
+         "dependencyKeys":[
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "assets/content/textures/holemanager/round_spec_mask.bundle",
+            "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+            "cubemaps",
+            "shaders"
+         ]
+      },
+      {
+         "key":"item_equipment_headset_comtac_6_black.bundle",
+         "dependencyKeys":[
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "cubemaps",
+            "shaders"
+         ]
+      },
+      {
          "key":"cinnamoroll/tactical_urx_kac_panel_short_cinnamoroll.bundle",
          "dependencyKeys":[
             "assets/commonassets/physics/physicsmaterials.bundle",
@@ -18,17 +36,6 @@
       {
          "key":"cinnamoroll/tactical_urx_kac_panel_short_textures_cinnamoroll.bundle",
          "dependencyKeys":[
-         ]
-      },
-      {
-         "key":"cinnamoroll/scope_30mm_eotech_vudu_1_6x24_cinnamoroll.bundle",
-         "dependencyKeys":[
-            "assets/commonassets/physics/physicsmaterials.bundle",
-            "assets/content/textures/holemanager/round_spec_mask.bundle",
-            "assets/systems/effects/opticsight/opticsightsmasks.bundle",
-            "cubemaps",
-            "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
-            "shaders"
          ]
       },
       {
